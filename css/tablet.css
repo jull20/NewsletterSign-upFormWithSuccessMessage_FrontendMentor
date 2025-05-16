@@ -1,0 +1,13 @@
+@media screen and (min-width: 376px) and (max-width: 768px) {
+    .main__conteiner{
+        --width:  calc(var(--index)*10) ;
+        /* --width:  60.8rem; */
+        --height: 87.8rem;
+        --direction: column;
+        --row-gap:     var(--spacing-500);
+        --column-gap:  var(--spacing-0);
+    }
+    .img{
+        --img-url: url(../assets/images/illustration-sign-up-mobile.svg)
+    }
+}

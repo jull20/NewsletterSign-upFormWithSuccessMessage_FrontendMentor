@@ -1,0 +1,12 @@
+@media screen and (min-width: 769px){
+    .main__conteiner{
+        --width:  90.4rem;
+        --height: 64.1rem;
+        --direction: row;
+        --row-gap:     var(--spacing-0);
+        --column-gap:  var(--spacing-800);
+    }
+    .img{
+        --img-url: url(../assets/images/illustration-sign-up-desktop.svg)
+    }
+}
