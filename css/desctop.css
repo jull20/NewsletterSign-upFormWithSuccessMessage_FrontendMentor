@@ -1,12 +1,42 @@
 @media screen and (min-width: 769px){
-    .main__conteiner{
-        --width:  90.4rem;
-        --height: 64.1rem;
-        --direction: row;
-        --row-gap:     var(--spacing-0);
-        --column-gap:  var(--spacing-800);
-    }
-    .img{
-        --img-url: url(../assets/images/illustration-sign-up-desktop.svg)
-    }
+.main__conteiner{
+    --width:  90.4rem;
+    --height: 64.1rem;
+    --v-padding: 3.2rem;
+    --h-padding: 3.2rem;
+    --b-radius:  3.6rem;
+}
+.main-content{
+    --direction: row;
+    --row-gap:     var(--spacing-0);
+    --column-gap:  var(--spacing-800);
+
+}
+.succes-content{
+    --width:       88%;
+    --height:      62.3rem;
+    margin-top:    90px;
+}
+/* .img{
+    max-height:    28.4rem;
+} */
+.img img{
+    --top-left:    1.6rem;
+    --top-right:   1.6rem;
+    --bottom-right:1.6rem;
+    --bottom-left: 1.6rem;
+}
+.content{
+    --width:       88%;
+    --row-gap:     var(--spacing-400);
+    --column-gap:  var(--spacing-0);
+}
+.content__text{
+    --row-gap:     var(--spacing-400);
+    --column-gap:  var(--spacing-0);
+}
+.form{
+    --row-gap:     var(--spacing-300);
+    --column-gap:  var(--spacing-0);
+}
 }
