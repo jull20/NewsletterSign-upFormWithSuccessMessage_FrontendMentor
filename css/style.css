@@ -31,7 +31,6 @@
     --text-preset-2-700:    700 16px/150% "Roboto";
     --text-preset-2-400:    400 16px/150% "Roboto";
     --text-preset-3:        700 12px/150% "Roboto";
-    /* calc(50px + 15 * (100vw - 375px) / 880); */
 }
 
 .title{
@@ -213,25 +212,6 @@ main{
     background-color: var(--blue-800);
     border: none;
     border-radius: 8px;
-}
-
-.animation{
-    animation-name: reminder-to-click;
-    animation-duration: .7s;
-}
-.email_input.animation{
-    --bg-color: var(--white)
-}
-.btn.animation{
-    --bg-color: var(--blue-800)
-}
-@keyframes reminder-to-click {
-    from {
-        background: rgb(165, 240, 255);
-    }
-    to {
-        background: var(--bg-color);
-    }
 }
 .hidden{
     display: none;

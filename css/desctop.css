@@ -50,14 +50,7 @@
     --row-gap:     var(--spacing-300);
     --column-gap:  var(--spacing-0);
 }
-.active-btn-submit{
+.btn:hover{
     background: var(--gradient);
-}
-.btn.animation{
-    --bg-color: var(--gradient);
-}
-.btn-return{
-    background: var(--gradient);
-
 }
 }
