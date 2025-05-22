@@ -2,7 +2,6 @@
 :root{
     --text-preset-1: 700 4.8vh/100% "Roboto";
     --text-preset-2-400: 400 1.9vh/150% "Roboto";
-    /* --text-preset-1: 700 40px/100% "Roboto"; */
 }
 .main__conteiner{
     --width: 100%;
@@ -47,4 +46,54 @@
     --row-gap:     var(--spacing-300);
     --column-gap:  var(--spacing-0);
 }
+}
+
+@media screen and (min-width: 375px) and (max-width: 425px) {
+    :root{
+        --text-preset-1: 700 4.8vh/100% "Roboto";
+        --text-preset-2-400: 400 1.9vh/150% "Roboto";
+    }
+    .main__conteiner{
+        --width: 100%;
+        --height: 100%;
+        padding-bottom: 10px;
+        --v-padding: 0;
+        --h-padding: 0;
+        --b-radius: 0;
+    }
+    .main-content{
+        --direction:   column;
+        --row-gap:     var(--spacing-500);
+        --column-gap:  var(--spacing-0);
+    }
+    .succes-content{
+        --width:       88%;
+        --height:      62.3rem;
+        --just-content: space-between;
+        --row-gap:     var(--spacing-0);
+        --column-gap:  var(--spacing-0);
+        margin-top:    90px;
+    }
+    .img{
+        max-height:    34vh;
+    }
+    .img img{
+        --top-left:    0;
+        --top-right:   0;
+        --bottom-right:1.6rem;
+        --bottom-left: 1.6rem;
+    }
+    .content{
+        --width:       88%;
+        --row-gap:     var(--spacing-500);
+        --column-gap:  var(--spacing-0);
+    }
+    .content__text{
+        --row-gap:     var(--spacing-300);
+        --column-gap:  var(--spacing-0);
+    }
+    .form{
+        --row-gap:     var(--spacing-300);
+        --column-gap:  var(--spacing-0);
+    }
 }
