@@ -1,6 +1,8 @@
 @media screen and (max-width: 375px) {
 :root{
-    --text-preset-1: 700 40px/100% "Roboto";
+    --text-preset-1: 700 4.8vh/100% "Roboto";
+    --text-preset-2-400: 400 1.9vh/150% "Roboto";
+    /* --text-preset-1: 700 40px/100% "Roboto"; */
 }
 .main__conteiner{
     --width: 100%;
@@ -24,7 +26,7 @@
     margin-top:    90px;
 }
 .img{
-    max-height:    28.4rem;
+    max-height:    34vh;
 }
 .img img{
     --top-left:    0;

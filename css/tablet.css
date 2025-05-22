@@ -1,9 +1,16 @@
 @media screen and (min-width: 376px) and (max-width: 768px) {
-.main__conteiner{
+.main__conteiner:has(.succes-content.hidden){
     --width:     calc(var(--index)*34);
-    /* --height:    87.8rem; */
+    --height:    auto;
     --v-padding: 4rem;
     --h-padding: 4rem;
+    --b-radius:  3.6rem;
+}
+.main__conteiner:has(.main-content.hidden){
+    --width:     calc(var(--index)*28);
+    --height:    auto;
+    --v-padding: 6.4rem;
+    --h-padding: 6.4rem;
     --b-radius:  3.6rem;
 }
 .main-content{

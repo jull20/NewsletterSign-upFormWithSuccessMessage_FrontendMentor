@@ -9,10 +9,13 @@ email_input.addEventListener("click", function(){
     if(this.value == "") this.value = "ash@loremcompany.com";
     this.classList.remove("error_input");
     document.querySelector(".email-error").classList.add("hidden");
+    document.querySelector(".btn-submit").classList.add("active-btn-submit");
+
 })
 email_input.addEventListener("input", function(){
     this.classList.remove("error_input");
     document.querySelector(".email-error").classList.add("hidden");
+    // document.querySelector(".btn-submit").classList.add("active-btn-submit");
 })
 
 email_input.addEventListener("animationend", remove_animation);
@@ -20,6 +23,7 @@ btn_submit.addEventListener("animationend", remove_animation);
 btn_return.addEventListener("click", function(){
     document.querySelector(".main-content").classList.remove("hidden");
     document.querySelector(".succes-content").classList.add("hidden");
+    document.querySelector(".btn-submit").classList.remove("active-btn-submit");
 });
 
 document.addEventListener("click", function(e){
