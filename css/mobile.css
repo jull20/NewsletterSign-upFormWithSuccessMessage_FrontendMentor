@@ -48,7 +48,7 @@
 }
 }
 
-@media screen and (min-width: 375px) and (max-width: 425px) {
+@media screen and (min-width: 376px) and (max-width: 425px) {
     :root{
         --text-preset-1: 700 4.8vh/100% "Roboto";
         --text-preset-2-400: 400 1.9vh/150% "Roboto";
@@ -69,10 +69,10 @@
     .succes-content{
         --width:       88%;
         --height:      62.3rem;
-        --just-content: space-between;
-        --row-gap:     var(--spacing-0);
+        --just-content: flex-start;
+        --row-gap:     var(--spacing-500);
         --column-gap:  var(--spacing-0);
-        margin-top:    90px;
+        margin-top:    165px;
     }
     .img{
         max-height:    34vh;
